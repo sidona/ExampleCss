@@ -1,0 +1,78 @@
+/* Featured: Sites */
+
+.featured-block {
+    text-align: center;
+}
+
+.featured-each {
+    margin: 0 0 40px 0;
+}
+
+.featured-each-link {
+    color: inherit;
+    display: block;
+    position: relative;
+}
+
+.featured-img-block {
+    overflow: hidden;
+}
+
+.featured-img-block:hover .featured-each-img {
+    -webkit-transform: scaleX(1.1) scaleY(1.1);
+    transform: scaleX(1.1) scaleY(1.1);
+    transition: all 0.2s ease-in;
+}
+
+.featured-each-img {
+    transition: all 0.2s linear;
+    display: block;
+}
+
+.featured-each-info {
+    padding: 10px 0 0 0;
+}
+
+.featured-info-title {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.featured-info-name {
+    font-size: 80%;
+}
+
+@media only screen and (min-width: 600px) {
+    .featured-each {
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .featured-each {
+        width: 33.33%;
+    }
+}
+
+
+/* Featured: Submit a Site */
+
+.form-site-block {
+    color: #bbb;
+    background-image: url("images/bg/dark-sharp-edges.png");
+    background-repeat: repeat;
+    padding: 20px 0 30px;
+}
+
+.form-site textarea {
+    min-height: 186px;
+}
+
+@media only screen and (min-width: 900px) {
+    .form-site-each {
+        width: 50%;
+        float: left;
+    }
+}

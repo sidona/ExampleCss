@@ -1,0 +1,78 @@
+/* Contact: Address */
+
+.background-block--contact {
+    background-image: url("images/contact/location.jpg");
+}
+
+.address-block {
+    text-align: center;
+}
+
+
+/* Contact: Email block */
+
+.email-block {
+    text-align: center;
+    background-color: #ddd;
+    padding: 10px 0;
+}
+
+.email-each {
+    margin: 10px 0;
+}
+
+.email-each .icon-round-wrap {
+    color: #fff;
+    background-color: #9D67AD;
+}
+
+.email-each a {
+    display: block;
+}
+
+.email-each-type {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 600px) {
+    .email-each {
+        width: 33.33%;
+        float: left;
+    }
+}
+
+
+/* Contact: Google Map */
+
+.map-google-embed iframe {
+    width: 100%;
+    display: block;
+}
+
+.map-google-embed img {
+    max-width: none;
+}
+
+
+/* Contact: Social Media */
+
+.social-block {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-icon-each {
+    margin: 0 10px;
+    display: inline-block;
+    border: 1px solid;
+}
+
+@media only screen and (min-width: 600px) {
+    .social-icon-each {
+        width: 72px;
+        height: 72px;
+        font-size: 30px;
+    }
+}
+

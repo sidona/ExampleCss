@@ -1,0 +1,70 @@
+/* Team: Members */
+
+.team-block {
+    text-align: center;
+}
+
+.team-each {
+    margin: 0 0 20px 0;
+}
+
+.team-each-member {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.team-each-role {
+    font-size: 80%;
+}
+
+@media only screen and (min-width: 600px) {
+    .team-each {
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .team-each {
+        width: 33.33%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .team-each {
+        width: 25%;
+    }
+}
+
+
+/* Team: Join */
+
+.background-block--job {
+    background-image: url("images/team/jobs/at-work.jpg");
+    margin: 40px 0 0 0;
+}
+
+.job-positions-block {
+    margin: 25px 0 0 0;
+}
+
+.job-positions-each {
+    padding: 15px 0 0 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Team: Work with us */
+
+.form-join-block {
+    background-image: url("images/bg/light-sharp-edges.png");
+    background-repeat: repeat;
+    padding: 10px 0 30px;
+}
+
+@media only screen and (min-width: 700px) {
+    .form-join-each {
+        width: 33.33%;
+        float: left;
+    }
+}

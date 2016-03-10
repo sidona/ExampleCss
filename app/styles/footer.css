@@ -1,0 +1,47 @@
+/* LAYOUT: FOOTER */
+
+.footer {
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    background-color: #555;
+    padding: 10px 0;
+}
+
+.footer a {
+    color: #fff;
+}
+
+
+/* Footer: Social Icons */
+
+.footer-social-each {
+    margin: 10px 10px 0 0;
+    display: inline-block;
+}
+
+.footer-social-each .icon-round-wrap {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* Footer: Copyright Block */
+
+.footer-copyright-block {
+    font-size: 80%;
+    margin: 10px 0;
+}
+
+
+@media only screen and (min-width: 700px) {
+    .footer {
+        text-align: left;
+    }
+
+    .footer-social-block {
+        float: left;
+    }
+
+    .footer-copyright-block {
+        float: right;
+    }
+}
